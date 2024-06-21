@@ -8,7 +8,7 @@ public class StudentGradeEvaluation {
         String name = scanner.next();
         int age = scanner.nextInt();
         int score = scanner.nextInt();
-        String grade = scanner.next();
+        String grade ;
         scanner.close(); // Close the scanner
 
         if (score >= 90) {
