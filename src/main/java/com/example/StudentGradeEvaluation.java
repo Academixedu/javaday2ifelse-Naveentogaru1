@@ -8,19 +8,23 @@ public class StudentGradeEvaluation {
         String name = scanner.next();
         int age = scanner.nextInt();
         int score = scanner.nextInt();
-        int grade = scanner.nextInt();
+        String grade = scanner.next();
         scanner.close(); // Close the scanner
 
         if (score >= 90) {
-            System.out.println("A");
+            grade = "A";
+            //System.out.println("A");
         } else if (score >= 80) {
-            System.out.println("B");
+            grade = "B";
+           // System.out.println("B");
         } else if (score >= 70) {
-            System.out.println("C");
+            grade = "C";
+         //   System.out.println("C");
         } else if (score >= 60) {
-            System.out.println("D");
+            grade = "D";
+           // System.out.println("D");
         } else {
-            System.out.println("Fail");
+            grade ="Fail";
         }
 
         System.out.println("name: " + name);
